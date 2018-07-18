@@ -237,20 +237,16 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+/* viewport for screens at 980px */
 @media screen and (max-width: 980px) {
    .main-section{
      width:100%;
   }
-   .auth-image, .work{
-    max-width:980px;
-      width:100%;
-  }
+
 
 
 @media screen and (max-width: 768px) {
-    .auth-image, .work{
-      width:40%;
-    }
+ 
     .main-section, .sidebar{
       max-width:768px;
       width:100%;
@@ -259,9 +255,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 640px) {
     
-    .auth-image, .work{
-      width:100%;
-    }
+   
    
     nav{
       float:none;
