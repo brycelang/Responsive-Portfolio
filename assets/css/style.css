@@ -239,9 +239,10 @@ input[type=submit] {
 }
 @media screen and (max-width: 980px) {
    .main-section{
-     width:70%;
+     width:100%;
   }
    .auth-image, .work{
+    max-width:980px;
       width:100%;
   }
 
@@ -249,9 +250,6 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
     .auth-image, .work{
       width:40%;
-    }
-    .container{
-      max-width:100%;
     }
     .main-section, .sidebar{
       max-width:768px;
